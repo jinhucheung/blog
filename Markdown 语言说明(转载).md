@@ -1,25 +1,25 @@
 ## <a name="index">Index</a>
-0. <a href="#ch0">前言</a> 
-1. <a href="#ch1">概述</a>
+* <a href="#ch0">0. 前言</a> 
+* <a href="#ch1">1. 概述</a>
   * <a href="#ch1.1">1.1 宗旨</a>
   * <a href="#ch1.2">1.2 兼容HTML</a>
   * <a href="#ch1.3">1.3 特殊字符自动转换</a>
-2. <a href="#ch2">区块元素</a>
+* <a href="#ch2">2. 区块元素</a>
   * <a href="#ch2.1">2.1 段落和换行</a>
   * <a href="#ch2.2">2.2 标题</a>
   * <a href="#ch2.3">2.3 区块引用</a>
   * <a href="#ch2.4">2.4 列表</a>
   * <a href="#ch2.5">2.5 代码区块</a>  
   * <a href="#ch2.6">2.6 分隔线</a> 
-3. <a href="#ch3">区段元素</a>
+* <a href="#ch3">3. 区段元素</a>
   * <a href="#ch3.1">3.1 链接</a>
   * <a href="#ch3.2">3.2 强调</a>
   * <a href="#ch3.3">3.3 代码</a>
   * <a href="#ch3.4">3.4 图片</a>
-4. <a href="#ch4">其它</a>
+* <a href="#ch4">4. 其它</a>
   * <a href="#ch4.1">4.1 自动链接</a>
   * <a href="#ch4.2">4.2 反斜杠</a>
-5. <a href="#ch5">Markdown 免费编辑器</a>
+* <a href="#ch5">5. Markdown 免费编辑器</a>
 
 
 ## <a name="ch0">0. 前言</a><a style="float:right;text-decoration:none;" href="#index"> [TOP] </a>
