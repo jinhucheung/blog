@@ -1,6 +1,6 @@
 ## <a name="index">Index</a>
-0\. <a href="#ch0">前言</a>
-1\. <a href="#ch1">概述</a>
+0\. <a href="#ch0">前言</a>    
+1\. <a href="#ch1">概述</a>    
     * <a href="#ch1.1">1.1 宗旨</a>
     * <a href="#ch1.2">1.2 兼容HTML</a>
     * <a href="#ch1.3">1.3 特殊字符自动转换</a>
