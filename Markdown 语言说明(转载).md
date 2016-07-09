@@ -1,4 +1,4 @@
-
+[TOC]
 ## <a name="ch1">概述</a><a style="float:right;text-decoration:none;" href="#index">[TOP]</a>
 ### <a name="ch1.1">宗旨</a>
 
