@@ -389,3 +389,5 @@ See my [About](/about/) page for details.
 ```
 **参考式**的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：
 This is [an example][Hello] reference-style link.
+
+[Hello]:http://google.com/
