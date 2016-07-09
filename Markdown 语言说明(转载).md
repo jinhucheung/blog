@@ -399,8 +399,37 @@ This is [an example] [id] reference-style link.
 ```
 [id]: http://example.com/  "Optional Title Here"
 ```
-链接内容定义的形式为：
-    * 方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字
-    * 接着一个冒号
-    
-    
+链接内容定义的形式为:
+*   方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字
+*   接着一个冒号
+*   接着一个以上的空格或制表符
+*   接着链接的网址
+*   选择性地接着 title 内容，可以用单引号、双引号或是括弧包着
+下面这三种链接的定义都是相同：
+```
+[foo]: http://example.com/  "Optional Title Here"
+[foo]: http://example.com/  'Optional Title Here'
+[foo]: http://example.com/  (Optional Title Here)
+```
+请注意：有一个已知的问题是 Markdown.pl 1.0.1 会忽略单引号包起来的链接 title。
+
+链接网址也可以用尖括号包起来：
+
+```
+[id]: <http://example.com/>  "Optional Title Here"
+```
+你也可以把 title 属性放到下一行，也可以加一些缩进，若网址太长的话，这样会比较好看：
+```
+[id]: http://example.com/longish/path/to/resource/here
+    "Optional Title Here"
+```
+网址定义只有在产生链接的时候用到，并不会直接出现在文件之中。
+
+链接辨别标签可以有字母、数字、空白和标点符号，但是并**不**区分大小写，因此下面两个链接是一样的：
+```
+[link text][a]
+[link text][A]
+```
+**隐式链接标记**功能让你可以省略指定链接标记，这种情形下，链接标记会视为等同于链接文字，要用隐式链接标记只要在链接文字后面加上一个空的方括号，如果你要让 "Google" 链接到 google.com，你可以简化成：
+[Google][]
+[Google]: http://google.com/
