@@ -364,7 +364,7 @@ end tell
 
 ## <a name="ch3">区段元素</a> <a style="float:right;text-decoration:none;" href="#index"> [TOP] </a>
 
-### <a name="ch3.1" id="Hello">链接</a> <a style="float:right;text-decoration:none;" href="#index"> [TOP] </a>
+### <a name="ch3.1">链接</a> <a style="float:right;text-decoration:none;" href="#index"> [TOP] </a>
 Markdown 支持两种形式的链接语法： **行内式**和**参考式**两种形式。
 
 不管是哪一种，链接文字都是用 [方括号] 来标记。
@@ -388,6 +388,19 @@ title attribute.</p>
 See my [About](/about/) page for details.
 ```
 **参考式**的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：
-This is [an example][Hello] reference-style link.
-
-[Hello]:http://google.com/
+```
+This is [an example][id] reference-style link.
+```
+你也可以选择性地在两个方括号中间加上一个空格：
+```
+This is [an example] [id] reference-style link.
+```
+接着，在文件的任意处，你可以把这个标记的链接内容定义出来：
+```
+[id]: http://example.com/  "Optional Title Here"
+```
+链接内容定义的形式为：
+    * 方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字
+    * 接着一个冒号
+    
+    
