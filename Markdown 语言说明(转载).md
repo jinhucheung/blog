@@ -17,8 +17,8 @@
    * <a href="#ch3.3">3.3 代码</a>
    * <a href="#ch3.4">3.4 图片</a>
 4. <a href="#ch4">其它</a>
- * <a href="#ch4.1">4.1 反斜杠</a>
- * <a href="#ch4.2">4.2 自动链接</a>
+ * <a href="#ch4.1">4.1 自动链接</a>
+ * <a href="#ch4.2">4.2 反斜杠</a>
 5. <a href="#ch5">Markdown 免费编辑器</a>
 
 
