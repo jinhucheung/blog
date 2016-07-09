@@ -24,7 +24,7 @@
 
 ## <a name="ch0">0. 前言</a><a style="float:right;text-decoration:none;" href="#index"> [TOP] </a>
 
-我在学习Markdown时,发觉自己应用Markdown较少,然后刚好看到这篇文章的[原文](http://wowubuntu.com/markdown/#blockquote),于是决定一边学习一边将原文用Markdown格式转换。
+我在学习Markdown时,发觉自己应用Markdown较少,然后刚好看到这篇文章的[原文](http://wowubuntu.com/markdown/),于是决定一边学习一边将原文用Markdown格式转换。
 
 ----------------------------------------
 
