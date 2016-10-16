@@ -1,0 +1,52 @@
+Sublime Text的一些包
+----------------------
+##
+Emmet ：快速编辑html代码
+[TAB]
+[Ctrl+Shift+G ] 选中文本后添加标签
+
+##
+AdvanceNewFile
+[Win+Alt+N] 新建文件
+[Win+Alt+Shift+N] 新建目录
+
+##
+Color Picker
+[Ctrl+Shift+C] 颜色选择器
+
+##
+Color Highlighter ： 颜色16进制形式显示出对应的颜色
+
+##
+AutoFileName: 定位文件系统中的文件,输入文件名按TAB后显示
+
+##
+Goto-CSS-Declaration: 定位CSS的位置
+[Win+←或→]
+
+##
+HTML-CSS-JS Prettify： 格式化HTML/CSS/JS代码
+[Ctrl+Shift+P] 调出包管理器键入htmlPrettify
+
+Sassbeautify 格式化SASS/SCSS/CSS代码
+[Ctrl+Shift+P] 调出包管理器键入Sassbeautify
+
+#DocBlockr 注释自动生成
+
+##
+Rails Snippet： Rails 语法高亮
+SASS : SASS语法高亮
+SCSS : SCSS语法高亮
+
+##
+SASS Build: SASS 编译器
+[Ctrl+B] 开始编译,生成CSS
+
+Sublime Text 常用快捷键
+----------------------
+Ctrl + ` 控制台
+
+导入插件
+----------------------
+打开Sublime->Preferences->Browse Packages...
+在Installed Packages中导入插件

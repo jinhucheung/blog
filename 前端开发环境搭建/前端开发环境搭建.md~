@@ -1,0 +1,67 @@
+## 开发工具
+首先查看subl.txt搭建起前端开发工具
+
+
+## 自动化构建与浏览器同步浏览
+取得root权限下
+安装Node.js
+```
+wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh 
+```
+或
+```
+curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+```
+最后
+```
+nvm install stable
+```
+
+使用
+```
+npm install -g gulp-cli ( 自动化构建任务 ～make); 
+npm install -g gulp-compass (自动化的compass)
+npm install -g browser-sync (浏览器同步浏览)
+```
+下载这三个包
+                       
+
+
+## browser-sync单独使用
+
+在项目文件下,使用形如browser-sync start --server --files "css/*.css"监听项目
+其中"css/*.css"表示监听css目录下所有css文件
+
+
+
+## gulp与browser-sync一起使用
+
+1. 使用npm init 初始化项目
+
+2. 在项目下安装gulp工具，npm install --save-dev gulp
+
+3. 编辑gulpfile.js文件
+gulpfile.js基本格式
+```
+var gulp = require('gulp');
+
+gulp.task('default', function() {
+  // place code for your default task here
+});
+```
+
+一个gulpfile文件
+```
+
+```
+
+4. Run gulp中的任务
+gulp <taskname>
+
+
+
+
+
+
+
+
